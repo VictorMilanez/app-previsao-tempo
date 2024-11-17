@@ -44,3 +44,7 @@ Um aplicativo simples que permite ao usuário buscar por informações meteorol�
 2. O código realiza a validação da entrada.
 3. A função `searchForCityData` consome a WeatherAPI para buscar os dados climáticos.
 4. Os dados recebidos são exibidos na interface pela função `displayDataOnScreen`.
+
+## 💻 Demonstração
+
+![Demonstração do App de Previsão do Tempo](./src/images/animation.gif)
