@@ -1,5 +1,5 @@
-import { searchForCityData } from "./services/city.js";
-import { displayDataOnScreen } from "./services/data-screen.js";
+import { searchForCityData } from "/services/city.js";
+import { displayDataOnScreen } from "/services/data-screen.js";
 
 const btnSearch = document.querySelector('.btn-search');
 
