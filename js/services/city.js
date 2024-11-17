@@ -1,4 +1,4 @@
-import { apiKey } from "./config-api-key.js";
+import { apiKey } from "/config-api-key.js";
 
 const baseUrl = 'http://api.weatherapi.com/v1'
 
