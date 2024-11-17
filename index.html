@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Previsão do Tempo</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+    <main class="container">
+
+        <div class="search">
+            <input class="input-search" id="input-search" type="text" placeholder="Digita uma cidade">
+            <button class="btn-search"><img class="img-loupe" src="./src/images/lupa.png" alt="button search"></button>
+        </div>
+
+        <div class="primary-data">
+            <h1 class="city-name" id="city-name">Nome da cidade digitada na busca</h1>
+
+            <p class="data-temp" id="data-temp">--°C</p>
+
+            <img id="climate-icon" src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="climate icon">
+
+            <p class="weather-conditions" id="weather-conditions">Nublado</p>
+        </div>
+
+        <div class="secondary-data">
+            <div class="humidity-data">
+                <span>Umidade</span>
+                <span id="humidity">---</span>
+            </div>
+            <div class="wind-data">
+                <span>Velocidade do Vento</span>
+                <span id="wind">---</span>
+            </div>
+            <div class="air-quality">
+                <span>Qualidade do Ar</span>
+                <span id="air-quality">---</span>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
